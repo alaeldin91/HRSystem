@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">ادارة الموظفين</string>
+    <string name="telephone">رقم الهاتف</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="confirm_password">تاكيد كلمة السر </string>
+    <string name="header_txt"> سجل دخولك الان!</string>
+    <string name="password">كلمة السر</string>
+    <string name="Avacationrequest"> تقديم احازة</string>
+    <string name="Submitresignation">تقديم استقالة</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="old_password">كلنة السر القديمة</string>
+    <string name="new_password"> كلمة السر الجديدة</string>
+    <string name="changepassword">تغيير كلمة السر</string>
+    <string name="Resignation">استقالتي</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="holidays">اجازاتي</string>
+    <string name="ID">الرقم</string>
+    <string name="same_password">يوجد تشابه في كلمات السر، قم بتغير الجديدة أولاً</string>
+    <string name="register">التسجيل</string>
+     <string name="failed_password_update"> خطا في تغيير كلمة السر</string>
+    <string name="success">نجاح</string>
+    <string name="ok">اضغط تم للمواصلة</string>
+    <string name="failed">فشل</string>
+    <string name="cancel"> الغاء</string>
+    <string name="success_password"> تم تغيير كلمة السر بنجاح </string>
+    <string name="txt_register"> هل انت مستخدم جديد ؟ سجل الان!</string>
+    //shared preconfig>>>>>
+    <string name="pref">prefernce_file</string>
+    <string name="pref_login_status">prefernce_login_status</string>
+    <string name="pref__user_name">prefernce_user_name</string>
+    <string name="developer"> المطورين</string>
+    <string name="app_resignation">  طلب تقديم استقالة</string>
+    <string name="type_name">نوع الاجازة</string>
+    <string name="statusname"> حالة الطلب</string>
+    <string name="request_date">تاريخ الارسال</string>
+    <string name="number_date">عدد الايام</string>
+    <string name="application_holiday_title"> طلب تقديم اجازة</string>
+    <string name="application_holiday_title_details">طلب اجازة بتاريخ</string>
+    <string name="number"> الرقم  : </string>
+    <string name="numdate">عدد الايام   :</string>
+    <string name="fullname">   الاسم باالكامل  :</string>
+    <string name="startdate">  بدابة الاجازة :</string>
+    <string name="enddate">  نهاية الاجازة :</string>
+    <string name="Reason"> السبب    :</string>
+    <string name="reginsin_date"> تقديم استقالة بتاريخ :</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

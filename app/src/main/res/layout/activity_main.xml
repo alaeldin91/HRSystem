@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+  android:gravity="center"
+    android:id="@+id/image_profile"
+
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/doc"
+        android:background="@drawable/user_profile"
+        android:elevation="4dp">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:orientation="vertical">
+
+<android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tajawalregular"
+        android:hint="@string/user_name"
+        android:id="@+id/edt_username"
+        android:inputType="text"
+        android:textColor="@color/primaryText"
+        android:paddingTop="20sp"
+        android:drawableStart="@drawable/ic_login"/>
+</android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tajawalregular"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="@color/primaryText"
+                android:paddingTop="20dp"
+                android:id="@+id/edt_password"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawableLeft="@drawable/ic_lock" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login"
+        android:textSize="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/login"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/buttonText"/>
+    </LinearLayout>
+
+
+
+
+
+

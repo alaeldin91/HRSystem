@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.application_holidays"
+    android:padding="2dp"
+    android:background="@color/buttonText"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tajawalbold"
+            android:letterSpacing="0.15"
+            android:textAlignment="center"
+
+            android:text="@string/app_name"
+            android:textColor="@color/buttonText"
+            android:textSize="20sp"/>
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/application_holiday_title_details"
+        android:gravity="center"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:fontFamily="@font/semibold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/toolbar"
+        android:textColor="@color/buttonText"
+        android:id="@+id/app_holidays"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:background="@drawable/card_border">
+
+
+        <LinearLayout
+            android:id="@+id/numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app_holidays"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/semibold"
+                android:text="@string/number"
+                android:textColor="@color/primaryText"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/holiday_numbers_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+
+                android:fontFamily="@font/medium"
+                android:text="1"
+                android:textColor="@color/primaryText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_employess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numbers"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/semibold"
+                android:text="@string/fullname"
+                android:textColor="@color/primaryText"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/name_employees_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+
+
+                android:fontFamily="@font/medium"
+                android:textColor="@color/primaryText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/date_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_employess"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/semibold"
+                android:text="@string/numdate"
+                android:textColor="@color/primaryText"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/date_number_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+
+                android:text="20"
+                android:textColor="@color/primaryText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/start_holidays_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/date_num"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/semibold"
+                android:text="@string/startdate"
+                android:textColor="@color/primaryText"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/start_date_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+
+                android:text="20"
+                android:textColor="@color/primaryText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/end_holiday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/semibold"
+                android:text="@string/enddate"
+                android:textColor="@color/primaryText"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/end_date_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+
+                android:text="20"
+                android:textColor="@color/primaryText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reson_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/end_holiday"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/semibold"
+                android:text="@string/Reason"
+                android:textColor="@color/primaryText"
+                android:textSize="15dp" />
+
+
+
+            <TextView
+                android:id="@+id/reson_txt_details"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+
+                android:textColor="@color/primaryText" />
+        </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+</RelativeLayout>

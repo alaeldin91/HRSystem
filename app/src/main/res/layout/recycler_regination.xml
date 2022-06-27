@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/carView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    cardView:cardCornerRadius="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:background="@drawable/card_border"
+        android:layout_below="@+id/app_holidays">
+
+
+    <LinearLayout
+        android:id="@+id/numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/semibold"
+            android:text="@string/number"
+            android:textColor="@color/primaryText"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/holiday_numbers_reginose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+
+            android:fontFamily="@font/medium"
+            android:text="1"
+            android:textColor="@color/primaryText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_employess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/holiday_numbers_reginose"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/semibold"
+            android:text="@string/fullname"
+            android:textColor="@color/primaryText"
+            android:textSize="15dp" />
+
+
+
+        <TextView
+            android:id="@+id/name_employees_reginse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="مخممميممي"
+            android:fontFamily="@font/medium"
+            android:textColor="@color/primaryText" />
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_reason"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_employess"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/semibold"
+            android:text="@string/Reason"
+            android:textColor="@color/primaryText"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/edt_reason_reginse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+
+            android:fontFamily="@font/medium"
+            android:textColor="@color/primaryText" />
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/screen_background_dark_transparent"
+            android:fontFamily="@font/semibold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20dp"
+            android:layout_below="@+id/toolbar"
+            android:textColor="@color/buttonText"
+            android:id="@+id/app_holiday"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

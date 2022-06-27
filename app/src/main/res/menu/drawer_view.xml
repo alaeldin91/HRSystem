@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<item android:id="@+id/holidays"
+    android:icon="@drawable/ic_family"
+    android:title="@string/holidays"
+   />
+    <item android:id="@+id/Resignation"
+        android:icon="@drawable/ic_loser"
+        android:title="@string/Resignation"
+        ></item>
+    <item
+        android:id="@+id/change_password"
+        android:icon="@drawable/ic_create_black_24dp"
+        android:title="@string/changepassword" />
+    <item
+        android:id="@+id/about_exchange"
+        android:icon="@drawable/ic_report_black_24dp"
+        android:title="@string/developer" />
+</menu>

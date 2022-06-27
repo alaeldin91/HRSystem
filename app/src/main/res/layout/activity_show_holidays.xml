@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".show_holidays"
+
+
+    android:layout_gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:background="@drawable/card_edge"
+
+  android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:id="@+id/linear"
+
+        >
+
+        <TextView
+            android:id="@+id/IDs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="@string/ID"
+            android:textColor="@color/buttonText"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/typename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/bold"
+
+            android:text="@string/type_name"
+            android:textColor="@color/buttonText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+            android:fontFamily="@font/bold"
+            android:text="@string/statusname"
+            android:textColor="@color/buttonText"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/Request_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bold"
+            android:text="@string/request_date"
+            android:textColor="@color/buttonText"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+<android.support.v7.widget.RecyclerView
+    android:background="@drawable/border_table"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/recycler_holidays"
+    android:layout_below="@+id/linear">
+</android.support.v7.widget.RecyclerView>
+    </RelativeLayout>

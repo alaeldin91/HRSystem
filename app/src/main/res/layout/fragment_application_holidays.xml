@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.application_holidays"
+    android:padding="2dp"
+    android:background="@color/buttonText"
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="طلب اجازة"
+        android:gravity="center"
+        android:background="@android:drawable/screen_background_dark_transparent"
+        android:fontFamily="@font/semibold"
+        android:textSize="20dp"
+        android:textColor="@color/buttonText"
+        android:id="@+id/app_holidays"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/numbers"
+        android:layout_below="@+id/app_holidays"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text=" الرقم:"
+            android:textSize="15dp"
+            android:textColor="@color/primaryText"
+            android:fontFamily="@font/medium"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="4dp"
+        android:text="1"
+        android:fontFamily="@font/light"
+        android:id="@+id/holiday_numbers"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/border_text"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/primaryText"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/linear_employess"
+    android:layout_below="@+id/numbers"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="الاسم بالكامل:"
+        android:textSize="15dp"
+        android:textColor="@color/primaryText"
+        android:fontFamily="@font/medium"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/primaryText"
+            android:id="@+id/name_employees"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_text"
+            android:layout_marginRight="5dp"
+            android:fontFamily="@font/light"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/type_holidays"
+
+            android:layout_marginBottom="6dp"
+            android:layout_below="@+id/linear_employess"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نوع الاجازة:"
+                android:textSize="15dp"
+                android:textColor="@color/primaryText"
+                android:fontFamily="@font/medium"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+
+
+    <android.support.v7.widget.AppCompatSpinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/spinner_type_holidays">
+
+            </android.support.v7.widget.AppCompatSpinner>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/date_num"
+        android:layout_below="@+id/type_holidays"
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عدد الايام:"
+                android:textSize="15dp"
+                android:textColor="@color/primaryText"
+                android:fontFamily="@font/medium"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/border_text"
+                android:id="@+id/date_number"
+                android:layout_marginLeft="5dp"
+                android:inputType="number"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/primaryText"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="يوم"
+                android:textSize="15dp"
+                android:textColor="@color/primaryText"
+                android:fontFamily="@font/medium"
+
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/start_holidays"
+
+        android:layout_below="@+id/date_num"
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="بداية الاجازة:"
+        android:textSize="15dp"
+        android:textColor="@color/primaryText"
+        android:fontFamily="@font/medium"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_startdate"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="التاريخ"
+            android:id="@+id/btn_date"
+            android:background="@drawable/border_style"
+            android:fontFamily="@font/light"
+           />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/end_holiday"
+
+        android:layout_below="@+id/start_holidays"
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="نهاية الاجازة:"
+        android:textSize="15dp"
+        android:textColor="@color/primaryText"
+        android:fontFamily="@font/medium"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_enddate"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear_reason"
+
+        android:layout_below="@+id/end_holiday"
+        >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="السبب:"
+        android:textSize="15dp"
+        android:textColor="@color/primaryText"
+        android:fontFamily="@font/medium"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_reason"
+        android:minLines="3"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:background="@drawable/border_text"
+        />
+    </LinearLayout>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="ارسال"
+        android:id="@+id/send_data"
+        android:background="#eee"
+        android:fontFamily="@font/light"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linear_reason"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        />
+
+</RelativeLayout>

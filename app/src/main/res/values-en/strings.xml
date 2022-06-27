@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">HR</string>
+        <string name="please_enter_username">Please enter user name</string>
+        <string name="please_enter_password">Plese Enter Password</string>
+        <string name="telephone">phone</string>
+        <string name="failed_connectionb">failed network</string>
+        <string name="user_name">User Name</string>
+        <string name="option_internet">Please check the internet settings</string>
+        <string name="confirm_password">Confirm Password</string>
+        <string name="header_txt"> Log in now!</string>
+        <string name="password">Password</string>
+        <string name="Avacationrequest"> Provide a vacation</string>
+        <string name="Submitresignation">Submit resignation</string>
+        <string name="login">Login</string>
+        <string name="old_password">Old password</string>
+        <string name="new_password">new password</string>
+        <string name="changepassword">change Password</string>
+        <string name="welcomeemployee">Hello dear employee</string>
+        <string name="continues">
+         Click Done to continue</string>
+        <string name="Resignation">My resignation</string>
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">close navigation drawer</string>
+        <string name="holidays">My holidays</string>
+        <string name="ID"> number</string>
+        <string name="same_password">There are similarities in passwords, change the new firstً</string>
+        <string name="register">Registration</string>
+        <string name="failed_password_update">Error changing password</string>
+        <string name="success">Success</string>
+        <string name="login_success">successfully registered</string>
+        <string name="ok">Click Done to continue</string>
+        <string name="failed">failed</string>
+        <string name="login_failed">Error entering</string>
+        <string name="cancel">Cancellation</string>
+        <string name="success_password"> Password changed successfully </string>
+        <string name="txt_register"> هل انت مستخدم جديد ؟ سجل الان!</string>
+        //shared preconfig>>>>>
+        <string name="pref">prefernce_file</string>
+        <string name="pref_login_status">prefernce_login_status</string>
+        <string name="pref__user_name">prefernce_user_name</string>
+        <string name="developer">Developers</string>
+        <string name="app_resignation">Request to resign </string>
+        <string name="app_holidays">Request to submit a vacation</string>
+        <string name="type_name">type holiday</string>
+        <string name="statusname">status</string>
+        <string name="request_date">Date</string>
+        <string name="no_holidays">There is no vacation at this time</string>
+        <string name="no_holidays_details">No vacation has been added, press Done to return to the main</string>
+        <string name="no_reginstone">There is no resignation</string>
+        <string name="no_reginstone_details">No resignation is currently rejected</string>
+        <string name="number_date">The number of days</string>
+        <string name="application_holiday_title">Request to submit a vacation</string>
+        <string name="application_holiday_title_details">Leave request date</string>
+        <string name="number"> The Number  : </string>
+        <string name="type_holiday">    Type Holiday:</string>
+        <string name="email">Email : </string>
+        <string name="numdate">The number of days  :</string>
+        <string name="fullname">  The full name  :</string>
+        <string name="startdate"> begin holiday:</string>
+        <string name="enddate"> The end of the vacation :</string>
+        <string name="date"> Date :</string>
+        <string name="Reason"> Reason    :</string>
+        <string name="send">Send</string>
+        <string name="send_ok">The request was sent successfully</string>
+        <string name="failed_send_request">
+          Error sending request</string>
+        <string name="no_send_request">The request was not sent</string>
+        <string name="news">(New)</string>
+        <string name="input_date">Enter today </string>
+        <string name="dates">day</string>
+        <string name="logout">Logout</string>
+        <string name="app_about">about_application</string>
+        <string name="name_employee"> Employee Name :</string>
+        <string name="app_details"> It is an application that specializes in managing employee affairs, as the application allows submitting a request for leave, responding to leave, viewing approved leave, submitting resignations, and displaying rejected resignations.</string>
+        <string name="reginsin_date">Submit resignation on :</string>
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+    </resources>
+
+

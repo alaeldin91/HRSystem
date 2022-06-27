@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+  >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_header"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/colorPrimary"
+
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/client_image"
+        android:scaleType="centerCrop"
+       android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        android:src="@drawable/doc"
+        />
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="  الاسم :"
+            android:id="@+id/name_employee"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/primaryText"
+            android:fontFamily="@font/tajawal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="099992992"
+        android:textSize="16dp"
+        android:textColor="@color/primaryText"
+        android:id="@+id/telephone"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="@font/tajawalregular"
+        />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="alaeldinmusa91@gmail.com"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="16dp"
+            android:textColor="@color/primaryText"
+            android:id="@+id/emails"
+            android:fontFamily="@font/tajawalregular"
+            />
+
+    </LinearLayout>
+
+
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/new_card"
+    android:layout_margin="2dp"
+    app:cardCornerRadius="-1dp"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+
+    app:cardElevation="-1dp"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/card_edge"
+       >
+        <TextView
+            android:id="@+id/ID"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="@string/ID"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/buttonText"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/typename_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/semibold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/type_name"
+            android:textColor="@color/buttonText"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/status_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibold"
+            android:text="@string/statusname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/buttonText"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/Request_date_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/semibold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/request_date"
+            android:textColor="@color/buttonText"
+            android:textSize="17sp"
+            />
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
